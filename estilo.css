@@ -3,9 +3,105 @@
     margin: 0;
     padding: 0;
 }
-header
+body
 {
-    background-image: url("imagens/fundo.png");
-    background-size: cover;
-
+    font-family: Arial, Helvetica, sans-serif;
+    background: #fff url(imagens/fundo.png) repeat-x ;
 }
+/* header */
+#topo{
+    height: 180px;
+    background: url(imagens/detalhe-topo.png) no-repeat right top;
+    padding-top: 10px;
+}
+.logo
+{
+    width: 152px;
+    height: 66px;
+}
+#topo ul {
+    text-align: center;
+    height: auto;
+    width: 50%;
+    margin-left: 25%;
+}
+ul
+{
+    list-style: none;
+}
+#topo a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    background-image: url(imagens/divisor.png);
+    float: left;
+    padding: 15px;
+}
+/* header */
+/* body */
+main
+{
+    margin-top: 40px;
+}
+#primario {
+    width: 300px;
+    float: left;
+    margin: 0 0 20px 35%;
+}
+.caixa-conteudo {
+    background: #ffffff;
+    padding: 5px;
+    margin-top: 5px;
+    border: 5px dashed rgb(190, 189, 189);
+    
+  }
+#secundario {
+    width: 300px;
+    float: left;
+}
+#lateral {
+    width: 180px;
+    float: left;
+    margin: 0 0 20px -750px;
+  }
+.imagem-principal
+  {
+    width: 250px;
+  }
+#lista-noticias img
+{
+    width: 100px;
+    display: inline-block;
+}
+#lista-noticias a
+{
+    text-decoration: none;
+    color: black;
+}
+.caixa
+{
+    margin-right: 40px;
+}
+h2
+{
+    background: #294c71;
+    color: #fff;
+    padding: 5px;
+    font-size: 18px;
+}
+h3
+{
+    background-color: red;
+    font-size: 15px;
+    color: white;
+}
+/* body */
+footer{
+    clear: both;
+    background: #294c71;
+    padding: 30px;
+    text-align: center;
+    color: white;
+    margin: 30px 0px 0px 0px;
+}
+
