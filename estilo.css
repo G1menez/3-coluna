@@ -39,8 +39,8 @@ body
     height: auto;
     /* define a largura da lista para 50% da pagina */
     width: 50%;
-    /* margin esquerda em 25% da pagina */
-    margin-left: 25%;
+    /* margin esquerda em 35% da pagina */
+    margin-left: 35%;
 }
 /* css da tag ul */
 ul
@@ -56,8 +56,8 @@ ul
     text-decoration: none;
     /* deixa a cor das letras brancas */
     color: white;
-    /* deixa o background dos links com uma imagem de fundo  */
-    background-image: url(imagens/divisor.png);
+    /* deixa o background dos links com a cor vermelha  */
+    background-color: red;
     /* define o float na esquerda */
     float: left;
     /* deixa o padding dos links em 15 px */
@@ -106,6 +106,20 @@ main
     margin: 0 0 20px -850px;
     /* deixa a altura do container em automatico */
     height: auto;
+    
+  }
+  /* css do link da lista do id lateral */
+  #lateral ul a {
+    /* deixa o padding da lista em 5px */
+    padding: 5px;
+    /* cada link ocupa a lista inteira */
+    display: block;
+    /* a altura da linha é de 30px */
+    height: 30px;
+    /* deixa a cor do texto preta */
+    color: #000;
+    /* faz uma borda cinza embaixo */
+    border-bottom: 1px solid #9c9a9a;
   }
   /* css das imagens principais */
 .imagem-principal
@@ -156,6 +170,7 @@ h3
     font-size: 15px;
     /* cor do texto em branco */
     color: white;
+    display: inline;
 }
 /* css do footer */
 footer{
@@ -206,5 +221,43 @@ footer{
     /* altura do input email */
     height: 20px;
 }
-
-
+/* css do h3 da lista-noticias */
+#lista-noticias h3
+{
+    /* deixa a cor do background em branco */
+    background-color: #fff;
+    /* deixa a cor do texto azul escuro */
+    color: #294c71;
+    /* deixa o display em inline */
+    display: inline;
+/* css da da img do link da lista */
+}#lista-noticias li a img {
+    /* deixa a largura da imagem em 80px */
+    width: 80px;
+    /* deixa o float na esquerda */
+    float: left;
+    /* deixa a margem em 5px */
+    margin: 5px;
+}
+/* css da lista do id lista-noticias */
+#lista-noticias li {
+    /* deixa o padding em 2px */
+    padding: 2px;
+    /* cria uma borda cinza em baixo do container */
+    border-bottom: 1px solid #ccc;
+    /* deixa a altura da lista em 70px */
+    height: 70px;
+  }
+  #duas-colunas #primario {
+    /* define a largura do container primario em 300px */
+    width: 600px;
+    /* deixa o float do container primario na esquerda */
+    float: left;
+    /* deixa a margin de baixo em 20px e a da esquerda em 40% */
+    margin: 0 0 20px 40%;
+}
+ #duas-colunas .imagem-principal
+  {
+    /* deixa a largura das imagems principais da pagina brasil */
+    width: 540px;
+  }
