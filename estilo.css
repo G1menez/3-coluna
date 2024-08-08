@@ -31,6 +31,39 @@ body
     /* altura logo */
     height: 66px;
 }
+/* css pra colocar hover nos links */
+#topo a:hover
+{
+        /* deixa a cor do texto branco */
+        color: #ffffff;
+        /* deixa a cor do background vermelho escuro */
+        background-color: #5c0a21;
+}
+/* css do background do html atual */
+#uma-coluna #topo #foto
+{
+        /* deixa a cor do texto branco */
+        color: #ffffff;
+        /* deixa a cor do background vermelho escuro */
+        background-color: #5c0a21;
+}
+/* css do background do html atual */
+#duas-colunas #topo #brasil
+{
+        /* deixa a cor do texto branco */
+        color: #ffffff;
+        /* deixa a cor do background vermelho escuro */
+        background-color: #5c0a21;
+}
+/* css do background do html atual */
+#tres-colunas #topo #home
+{
+        /* deixa a cor do texto branco */
+        color: #ffffff;
+        /* deixa a cor do background vermelho escuro */
+        background-color: #5c0a21;
+}
+
 /* css da tag ul do id topo  */
 #topo ul {
     /* alinha a lista no  centro */
@@ -76,7 +109,7 @@ main
     /* deixa o float do container primario na esquerda */
     float: left;
     /* deixa a margin de baixo em 20px e a da esquerda em 35% */
-    margin: 0 0 20px 35%;
+    margin: 0 0 20px 42%;
 }
 /* css da classe caixa-conteudo */
 .caixa-conteudo {
@@ -249,15 +282,28 @@ footer{
     height: 70px;
   }
   #duas-colunas #primario {
-    /* define a largura do container primario em 300px */
+    /* define a largura do container primario em 600px */
     width: 600px;
     /* deixa o float do container primario na esquerda */
     float: left;
     /* deixa a margin de baixo em 20px e a da esquerda em 40% */
-    margin: 0 0 20px 40%;
+    margin: 0 0 20px 42%;
 }
  #duas-colunas .imagem-principal
   {
     /* deixa a largura das imagems principais da pagina brasil */
     width: 540px;
   }
+  #uma-coluna .imagem-principal
+  {
+    /* deixa a largura das imagems principais da pagina fotos */
+    width: 740px;
+  }
+  #uma-coluna #primario {
+    /* define a largura do container primario em 600px */
+    width: 800px;
+    /* deixa o float do container primario na esquerda */
+    float: left;
+    /* deixa a margin de baixo em 20px e a da esquerda em 35% */
+    margin: 0 0 20px 28%;
+}
