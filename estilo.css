@@ -31,7 +31,11 @@ body
     /* altura logo */
     height: 66px;
 }
-/* css pra colocar hover nos links */
+#lateral a:hover
+{
+    color:#blue
+}
+/* css pra colocar hover nos links do header*/
 #topo a:hover
 {
         /* deixa a cor do texto branco */
